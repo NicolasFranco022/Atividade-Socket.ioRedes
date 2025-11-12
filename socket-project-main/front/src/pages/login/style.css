@@ -1,0 +1,108 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    background: #0f172a;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  .tela-login {
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    background: radial-gradient(circle at top, #0f172a, #111827 70%);
+    color: #e5e7eb;
+    font-family: 'Poppins', sans-serif;
+  }
+  
+  /* HEADER */
+  .header-login {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 14px;
+    background: rgba(30, 41, 59, 0.9);
+    border-radius: 18px;
+    padding: 12px 25px;
+    margin-bottom: 40px;
+    box-shadow: 0 0 20px rgba(59, 130, 246, 0.15);
+  }
+  
+  .header-login h1 {
+    font-size: 30px;
+    letter-spacing: 1px;
+    color: #60a5fa;
+    font-weight: 600;
+    text-shadow: 0 0 5px rgba(96, 165, 250, 0.3);
+  }
+  
+  /* CONTAINER LOGIN */
+  .login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 22px;
+    width: 360px;
+    padding: 40px 30px;
+    background: rgba(17, 24, 39, 0.85);
+    border-radius: 18px;
+    box-shadow: 0 0 25px rgba(0, 0, 0, 0.35);
+    transition: all 0.3s ease;
+  }
+  
+  .login:hover {
+    transform: scale(1.01);
+  }
+  
+  /* INPUT */
+  .input-login {
+    width: 100%;
+    height: 48px;
+    background: rgba(255, 255, 255, 0.08);
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    font-size: 17px;
+    padding-left: 15px;
+    color: #f9fafb;
+    outline: none;
+    transition: all 0.3s ease;
+  }
+  
+  .input-login:focus {
+    border-color: #60a5fa;
+    box-shadow: 0 0 10px rgba(96, 165, 250, 0.3);
+    background: rgba(255, 255, 255, 0.12);
+  }
+  
+  /* BOTÃO LOGIN */
+  .button-login {
+    width: 100%;
+    height: 48px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: linear-gradient(145deg, #2563eb, #1e3a8a);
+    border-radius: 12px;
+    border: none;
+    font-size: 18px;
+    font-weight: 500;
+    color: #fff;
+    cursor: pointer;
+    transition: all 0.3s ease;
+  }
+  
+  .button-login:hover {
+    background: linear-gradient(145deg, #1e40af, #2563eb);
+    box-shadow: 0 0 15px rgba(59, 130, 246, 0.4);
+    transform: scale(1.03);
+  }
+  
